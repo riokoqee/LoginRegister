@@ -1,0 +1,35 @@
+.button {
+    background: #FF6500;
+    color: white;
+
+    padding: 10px;
+
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    margin-top: 10px;
+  }
+  
+.button:hover {
+    background: #e05500;
+  }
+
+.button__account {
+  background: #FF6500;
+  color: white;
+
+  padding: 10px;
+
+  border: none;
+  border-radius: 5px;
+
+  cursor: pointer;
+
+  margin-top: 10px;
+}
+
+.button__account:hover {
+  background: #e05500;
+}
