@@ -9,7 +9,7 @@ function Profile() {
         .then(response => response.json())
         .then(data => {
             console.log("Полученные данные:", data);
-            setUser(data); // Обновляем состояние
+            setUser(data); 
         })
         .catch(error => console.error("Ошибка запроса:", error));
     }, []);
@@ -24,7 +24,7 @@ function Profile() {
     }
 
     return (
-        <div>
+        <div className="profile">
             <h2 className="title">Profile</h2>
             <p className="text">Name: {user.name}</p>
             <p className="text">Email: {user.email}</p>

@@ -6,6 +6,7 @@ import "./styles/components/form.css";
 import "./styles/components/input.css";
 import "./styles/components/text.css";
 import "./styles/base/typography.css";
+import "./styles/layout/Profile.css";
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
