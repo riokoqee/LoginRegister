@@ -8,14 +8,12 @@ function App() {
   return (
     <>
       <HashRouter>
-        <Router>
           <Routes>
             <Route path="/profile" element={<Profile />} />
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
             <Route path="/" element={<Login />} />
           </Routes>
-        </Router>
       </HashRouter>
     </>
   )
